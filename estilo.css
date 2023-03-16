@@ -1,32 +1,69 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
+
 
 .navegacion{
-    background-image: url(Foto_pag_Clau2.jpg);
+    background-image: url(Clau_pag_foto_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
-    padding: 300px;
-    justify-content: space-evenly;
+    height: 705px;
     align-items: start;
-    
+    margin: 0 auto;
 }
 
 .logo{
-    background-color: blue;
+    background-color: rgb(236, 241, 245);
+    opacity: value;
+    display: flex;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    height: 40px;
+    width: 778px;
+    padding-top: 10px;
+    padding-left: 120px;
+    
 }
 
 .menu{
-    background-color: blueviolet;
-}
+    background-color: rgb(236, 241, 245);
+    display: flex;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    height: 40px;
+    width: 778px;
+    padding-top: 10px;
+    padding-left: 50px;
+    }
 
+    .menu a{
+        text-decoration: none;
+        margin-left: 40px;
+        font-size: 18px;   
+        color: black;
+    }
+
+    .logo p1{
+        margin-left: 170px;
+        text-decoration: none;
+        font-size: 18px;   
+        color: black;
+    }
 
 .sobremi{
-    background-color: gold;
+    background-color: red;
     display: flex;
-    padding: 300px;
-    justify-content: space-between;
-    align-items: center;
+    height: 700px;
+    width: 1400px;
+    }
+
+.fotosobremi{
+    width: 700px;
+}
+
+.textosobremi{
+    width: 700px;  
 }
 
 .mipropuesta{
