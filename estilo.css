@@ -18,13 +18,11 @@
 
 .Nav2{
     display: flex;
-    background-color: green;
     height: 200px;
-    width: 200px;
+    width: 600px;
+    padding-top: 230px;
     flex-direction: column;
 }
-
-
 
 .logo{
     background-color: rgba(252, 249, 251, 0.65);
@@ -67,42 +65,51 @@
         color: black;
     }
 
-    .Nav2 h1{
-        margin-left: 60px;
-        font-family: lato;
-        font-size: 20px;
-        display: flex;
-        flex-direction: row;
-        
-    }
-
-.CM{
-    background-color: #9972F7;
-    height: 60px;
-    width: 200px;
-    padding-left: 20px;
     
+.CM{
+    height: 60px;
+    width: 600px;
+    padding-left: 20px;
+    text-align: center;
 }
 
 .MT{
-    background-color: #d472d2;
     height: 60px;
-    width: 200px;
+    width: 600px;
+    margin-top: 20px;
 }
 
-.sobremi{
+.CM h1{
+    margin-left: 130px;
+    font-family: lato;
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    line-height: 18px;
     
+}
+
+.MT p1{
+    margin-left: 120px;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+
+.sobremi{
     display: flex;
     flex-direction: row;
-    height: 570px;
+    height: 600px;
+    background-color: #e0b6c7;
     }
 
 .fotosobremi img{
-    height: 360px;
+    height: 500px;
     width: 450px;
     margin-left: 80px;
     position: absolute;
-    margin-top: 150px;
+    margin-top: 120px;
     border-radius: 10%;
     z-index: 2;
 }
@@ -113,22 +120,22 @@
     margin-top: 90px;
     margin-left: 225px;
     width: 1220px;  
-    height: 500px;
-    background-color: #F5E9FB;
+    height: 550px;
+    background-color: white;
     z-index: 1;
-}
+   }
 
 .textosobremi h1{
     font-family: lato;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 80px;
     margin-left: 50px;
 }
 
 .textosobremi p{
     font-family: M PLUS 1;
     text-align: justify;
-    font-size: 26px;
+    font-size: 28px;
     position: absolute;
     margin-left: 400px;
     margin-right: 50px;
@@ -137,19 +144,22 @@
 
 .redes{
     text-align: justify;
-    padding-top: 0px;
-    height: 80px;
+    padding-top: 20px;
+    height: 130px;
+    background-color: #e0b6c7;
     
 }
 
 .redes h1{
-    margin-top: 38px;
     text-align: center;
 }
 
 .redes nav{
-    text-align: center;
+    text-align: right;
     font-size: 30px;
+    padding-top: 55px;
+    padding-right: 70px;
+
     }
 
 .misredes{
@@ -179,9 +189,7 @@
 }
 
 .mipropuestatitulo{
-    background-color: #9972F7;
-    margin-top: 20px;
-    height: 60px;
+    height: 0px;
     }
 
 .mipropuestatitulo h1{
@@ -189,12 +197,11 @@
     color: #4c1358;
     text-align: center;
     font-family: lato;
-    margin-top: 0px;
     padding-top: 50px;
 }
 
 .mipropuestatitulo img{
-    background-color: black;
+    padding-top: 70px;
     text-align: center;
     margin-top: 100px;
     margin-left: 730px;
@@ -203,9 +210,12 @@
 }
 
 .mipropuesta{
-    background-color: #c8c8e0;
+    background-image: url(Backgrondpc.jpg);
+    padding-top: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
-    height: 600px;
+    height: 900px;
     }
 
 .mipropuesta h1{
@@ -217,7 +227,7 @@
     }
 
 .sesiones{
-    background-color: #c8c8e0;
+    padding-top: 110px;
     width: 700px;
     height: 260px;
     margin-top: 220px;
@@ -227,7 +237,7 @@
 }
 
 .tallerde{
-    background-color: #c8c8e0;
+    padding-top: 110px;
     width: 700px;
     height: 260px;
     margin-top: 220px;
