@@ -191,7 +191,7 @@
 .mipropuestatitulo{
     margin-top: 0px;
     height: 0px;
-    }
+}
 
 .mipropuestatitulo h1{
     font-size: 40px;
@@ -202,7 +202,7 @@
 }
 
 .mipropuestatitulo img{
-    padding-top: 95px;
+    padding-top: 200px;
     text-align: center;
     margin-top: 90px;
     margin-left: 730px;
@@ -212,23 +212,23 @@
 
 .mipropuesta{
     background-image: url(Backgrondpc.jpg);
-    padding-top: 30px;
+    padding-top: 70px;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    height: 800px;
+    height: 1200px;
     }
 
 .mipropuesta h1{
     font-size: 40px;
     text-align: center;
-    margin-top: 0px;
+    padding-top: 50px;
     font-family: lato;
     color: #4c1358;
     }
 
 .sesiones{
-    padding-top: 90px;
+    padding-top: 130px;
     width: 600px;
     height: 10px;
     margin-top: 220px;
@@ -238,7 +238,7 @@
 }
 
 .tallerde{
-    padding-top: 90px;
+    padding-top: 130px;
     width: 600px;
     height: 10px;
     margin-top: 220px;
@@ -248,7 +248,7 @@
 }
 
 .sesiones p{
-    font-size: 25px;
+    font-size: 30px;
     margin-left: 30px;
     margin-right: 10px;
     text-align: justify;
@@ -264,7 +264,7 @@
 
 .tallerde p{
 color: #4c1358;
-font-size: 25px;
+font-size: 30px;
 margin-left: 30px;
 margin-right: 10px;
 text-align: justify;
@@ -276,9 +276,103 @@ text-align: justify;
     color: #4c1358;
 }
 
+
+.Desarrollo{
+    background-color: #e0b6c7;
+    display: flex;
+    height: 620px;
+}
+
+.Posicionamiento{
+    background-color: white;
+    border-radius: 50px 50px 0px 0px;
+    height: 500px;
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 15gi0px;
+    margin-right: 150px;
+    text-align: justify;
+}
+
+.Posicionamiento img{
+    border-radius: 50px 50px 0px 0px;
+    height: 200px;
+    width: 300px;
+}
+
+.Posicionamiento h1{
+    text-align: center;
+    font-family: M Plus1;
+    font-size: 19px;
+}
+
+.Posicionamiento p{
+    font-size: 19px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Talleres4{
+    background-color: white;
+    border-radius: 50px 50px 0px 0px;
+    height: 500px;
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 150px;
+    text-align: justify;
+}
+
+.Talleres4 img{
+    border-radius: 50px 50px 0px 0px;
+    height: 200px;
+    width: 300px;
+}
+
+.Talleres4 h1{
+    text-align: center;
+    font-family: M Plus1;
+    font-size: 19px;
+}
+
+.Talleres4 p{
+    font-size: 19px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.Sesiones{
+    background-color: white;
+    border-radius: 50px 50px 0px 0px;
+    height: 500px;
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 150px;
+    text-align: justify;
+}
+
+.Sesiones img{
+    border-radius: 50px 50px 0px 0px;
+    height: 200px;
+    width: 300px;
+}
+
+.Sesiones h1{
+    text-align: center;
+    font-family: M Plus1;
+    font-size: 19px;
+}
+
+.Sesiones p{
+    font-size: 19px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .quieromas{
-    margin-top: 50px;
-    background-color: #c8c8e0;
+    margin-top: 0px;
+    background-color: #e0b6c7;
     height: 120px
 }
 .quieromasb{
@@ -306,79 +400,6 @@ text-align: justify;
     background-color: rgb(231, 231, 241);
     }
 
-.Desarrollo{
-    background-color: #e0b6c7;
-    display: flex;
-    height: 730px;
-}
-
-.Posicionamiento{
-    background-color: white;
-    border-radius: 50px 50px 0px 0px;
-    height: 500px;
-    width: 300px;
-    margin-top: 80px;
-    margin-left: 20px;
-    margin-right: 150px;
-    text-align: justify;
-}
-
-.Posicionamiento img{
-    border-radius: 50px 50px 0px 0px;
-    height: 200px;
-    width: 300px;
-}
-
-.Posicionamiento h1{
-    text-align: center;
-    font-family: M Plus1;
-    font-size: 19px;
-}
-
-.Posicionamiento p{
-    font-size: 19px;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.Talleres4{
-    background-color: #e0b6c7;
-    height: 500px;
-    width: 300px;
-    margin-top: 80px;
-    margin-left: 20px;
-    margin-right: 150px;
-}
-
-.Talleres4 img{
-    height: 200px;
-    width: 250px;
-}
-
-.Sesiones{
-    background-color: #e0b6c7;
-    height: 500px;
-    width: 250px;
-    margin-top: 80px;
-    margin-left: 40px;
-    margin-right: 20px;
-}
-
-.Sesiones img{
-    height: 200px;
-    width: 250px;
-}
-
-.Talleres4{
-    background-color: #ad3e6a;
-    height: 500px;
-}
-
-.Sesiones{
-    background-color: #a37539;
-    height: 500px;
-}
-
 .contacto{
     background-color: rgb(142, 120, 163);
     display: flex;
@@ -386,7 +407,7 @@ text-align: justify;
 }
 
 .masinfo{
-    background-color: #d472d2;
+    background-color: #e0b6c7;
     height: 50px;
     }
 .masinfo h1{
