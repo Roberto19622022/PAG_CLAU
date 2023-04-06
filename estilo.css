@@ -7,7 +7,7 @@
     background-repeat: no-repeat;
     display: flex;
     flex-flow: row wrap;
-    height: 715px;
+    height: 1200px;
    }
 
 .Nav1{
@@ -289,7 +289,7 @@ text-align: justify;
     height: 500px;
     width: 300px;
     margin-top: 80px;
-    margin-left: 15gi0px;
+    margin-left: 150px;
     margin-right: 150px;
     text-align: justify;
 }
@@ -401,9 +401,21 @@ text-align: justify;
     }
 
 .contacto{
-    background-color: rgb(142, 120, 163);
+    background-color: #FCF9FB;
     display: flex;
-    padding: 300px;
+    flex-direction: column;
+    height: 400px;
+    padding: 50px;
+
+}
+
+.formulariocont{
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.formulariocont h1{
+    text-align: center;
 }
 
 .masinfo{
@@ -413,7 +425,6 @@ text-align: justify;
 .masinfo h1{
     text-align: center;
     padding-top: 10px;
-
 }
 
 .masinfocont{
